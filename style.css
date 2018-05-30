@@ -1,0 +1,182 @@
+/*fonts and colors only*/
+body {
+      background:rgb(240, 240, 240);
+      color: rgb(20, 20, 20);
+      font-weight: Helvetica;
+      margin: 0;
+    }
+h1 {
+    font-family:'Pacifico', cursive;
+    font-size: 45px;
+    color: #356B67;
+  }
+h2{
+  font-family: 'Fredoka One', cursive;
+  font-size: 35px;
+}
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: black;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: blue;
+}
+
+/*Bespoke*/
+
+#banner{
+    background-image: url("images/henrehoward.png");
+    background-position: center;
+    background-size: cover;
+    padding: 150px 0;
+    text-align: center;
+
+}
+
+#banner a{
+  font-size: 35px;
+  color: white;
+
+}
+
+#banner a:hover{
+  color: #DDAE99;
+}
+i {
+  transition: all .5s;
+  margin: 10px;
+}
+i:hover{
+  transform: scale(1.5);
+}
+
+
+.story{
+  padding: 50px;
+  text-align: center;
+}
+
+.story p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 10px;
+  color: #DDAE99
+}
+
+.story h2{
+  font-family: 'Fredoka One', cursive;
+  font-size: 35px;
+}
+
+#banner h1{
+  font-family:'Pacifico', cursive;
+  font-size: 45px;
+  color: #356B67;
+}
+
+#footer{
+  background: #356B67;
+  color: black;
+  text-align: center;
+}
+
+#footer p{
+  font-family:'Pacifico', cursive;
+  font-size: 25px;
+  color: #DDAE99;
+}
+
+#footer a{
+  font-size: 30px;
+  color: white;
+}
+#footer a:hover{
+  color: #DDAE99;
+}
+#blogone h1{
+  font-family:'Pacifico', cursive;
+  font-size: 45px;
+  color: white;
+}
+#blogone h4{
+  font-family: 'Fredoka One', cursive;
+  color: #DDAE99;
+}
+#blogone {
+  background-color: #356B67;
+  padding: 5px;
+}
+#travel h1{
+  font-family:'Pacifico', cursive;
+  font-size: 45px;
+  color: white;
+}
+#travel h4{
+  font-family: 'Fredoka One', cursive;
+  color: #DDAE99;
+}
+#travel {
+  background-color: #356B67;
+  padding: 10px;
+}
+#map {
+  flex: 0 0 450px;
+  height: 100vh;
+  border-radius: 5px;
+  position: sticky !important;
+  top: 0 !important;
+}
+.main-container {
+  display: flex;
+}
+.card-container {
+  padding: 5em;
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0px;
+  margin: 10px 0px;
+  text-align: center;
+  border-radius: 1px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  font-size: 25px;
+  color: white;
+  font-weight: bolder;
+  text-shadow: 0 0 10px rgba(0,0,0,0.7);
+  flex: 0 0 30%;
+  transition: all 1s;
+}
+.card:hover{
+  transform: scale(1.1);
+}
+@media(max-width: 992px) {
+  .card {
+    flex: 0 0 50%;
+  }
+}
+@media(max-width: 768px) {
+  .card {
+    flex: 0 0 100%;
+  }
+}
+
+#scroll {
+  background-color: #356B67;
+  padding: 10px;
+}
+#scroll h1{
+  font-family:'Pacifico', cursive;
+  font-size: 45px;
+  color: white;
+}

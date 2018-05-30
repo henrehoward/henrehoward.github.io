@@ -1,0 +1,52 @@
+#banner{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 80px;
+    background-image: url("images/scotland.png");
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+}
+#banner a{
+  text-decoration: none;
+  color:black;
+
+}
+
+#banner a:hover{
+  color:white;
+  text-decoration: line-through;
+}
+i {
+  transition: all .4s;
+}
+i:hover{
+  -webkit-transform: rotate(360deg);
+}
+.nav {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 30px;
+  margin:0;
+  background-color: red;
+  color: black;
+  text-align: center;
+  padding: 20px 0 20px 0;
+  opacity: .2;
+
+}
+
+.nav li{
+  display: inline-block;
+  padding-right: 80px;
+
+}
+
+.nav li a{
+  text-decoration: none;
+  color: white;
+
+}
+.nav li a:hover{
+  text-decoration: line-through;
+  color: black;
+}
